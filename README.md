@@ -26,8 +26,8 @@ git clone https://github.com/Acow337/mm_enshu_lightrag.git
 cd mm_enshu_lightrag
 pip install -e ".[api]"
 cd lightrag
-# copy your .env file to the "lightrag" folder
-
+# copy the env file to the "lightrag" folder
+cp env .env
 lightrag-server
 ```
 
