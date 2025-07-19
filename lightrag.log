@@ -1,0 +1,53 @@
+2025-07-16 17:33:20,229 - lightrag - INFO - Rerank model not configured. Set RERANK_BINDING_API_KEY and RERANK_BINDING_HOST to enable reranking.
+2025-07-16 17:33:28,370 - lightrag - INFO - Created new empty graph
+2025-07-16 17:33:29,408 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2025-07-16 17:33:29,475 - uvicorn.error - INFO - Started server process [22338]
+2025-07-16 17:33:29,475 - uvicorn.error - INFO - Waiting for application startup.
+2025-07-16 17:33:29,475 - lightrag - INFO - Process 22338 KV load full_docs with 0 records
+2025-07-16 17:33:29,475 - lightrag - INFO - Process 22338 KV load text_chunks with 0 records
+2025-07-16 17:33:29,476 - lightrag - INFO - Process 22338 KV load llm_response_cache with 0 records
+2025-07-16 17:33:29,476 - lightrag - INFO - Process 22338 doc status load doc_status with 0 records
+2025-07-16 17:33:29,476 - uvicorn.error - INFO - Application startup complete.
+2025-07-16 17:33:29,476 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-07-16 17:33:34,024 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET / HTTP/1.1" 307
+2025-07-16 17:33:34,027 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET /webui HTTP/1.1" 307
+2025-07-16 17:33:34,056 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET /webui/assets/index-BghbDBWC.js HTTP/1.1" 200
+2025-07-16 17:33:34,057 - uvicorn.access - INFO - 127.0.0.1:59131 - "GET /webui/assets/react-vendor-DEwriMA6.js HTTP/1.1" 200
+2025-07-16 17:33:34,057 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /webui/assets/ui-vendor-CeCm8EER.js HTTP/1.1" 200
+2025-07-16 17:33:34,068 - uvicorn.access - INFO - 127.0.0.1:59131 - "GET /webui/assets/feature-graph-BipNuM18.css HTTP/1.1" 200
+2025-07-16 17:33:34,075 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /webui/assets/index-DwO2XWaU.css HTTP/1.1" 200
+2025-07-16 17:33:34,079 - uvicorn.access - INFO - 127.0.0.1:59131 - "GET /webui/assets/graph-vendor-B-X5JegA.js HTTP/1.1" 200
+2025-07-16 17:33:34,082 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET /webui/assets/feature-graph-C2oTJZJ8.js HTTP/1.1" 200
+2025-07-16 17:33:34,083 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /webui/assets/utils-vendor-BysuhMZA.js HTTP/1.1" 200
+2025-07-16 17:33:34,085 - uvicorn.access - INFO - 127.0.0.1:59131 - "GET /webui/assets/mermaid-vendor-CY273lNM.js HTTP/1.1" 200
+2025-07-16 17:33:34,089 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET /webui/assets/markdown-vendor-DmIvJdn7.js HTTP/1.1" 200
+2025-07-16 17:33:34,094 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /webui/assets/feature-retrieval-CpuDBjCo.js HTTP/1.1" 200
+2025-07-16 17:33:34,099 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /webui/assets/feature-documents-CHAt2SlA.js HTTP/1.1" 200
+2025-07-16 17:33:34,270 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /auth-status HTTP/1.1" 200
+2025-07-16 17:33:34,272 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /webui/favicon.png HTTP/1.1" 200
+2025-07-16 17:33:34,927 - uvicorn.access - INFO - 127.0.0.1:59133 - "GET /docs HTTP/1.1" 200
+2025-07-16 17:33:34,942 - uvicorn.access - INFO - 127.0.0.1:59131 - "GET /graph/label/list HTTP/1.1" 200
+2025-07-16 17:33:34,962 - lightrag - INFO - Subgraph query successful | Node count: 0 | Edge count: 0
+2025-07-16 17:33:34,964 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-07-16 17:33:35,320 - uvicorn.access - INFO - 127.0.0.1:59129 - "GET /openapi.json HTTP/1.1" 200
+2025-07-16 17:33:56,778 - uvicorn.access - INFO - 127.0.0.1:59145 - "GET / HTTP/1.1" 307
+2025-07-16 17:33:56,780 - uvicorn.access - INFO - 127.0.0.1:59145 - "GET /webui HTTP/1.1" 307
+2025-07-16 17:33:56,800 - uvicorn.access - INFO - 127.0.0.1:59145 - "GET /webui/assets/index-BghbDBWC.js HTTP/1.1" 200
+2025-07-16 17:33:56,809 - uvicorn.access - INFO - 127.0.0.1:59146 - "GET /webui/assets/react-vendor-DEwriMA6.js HTTP/1.1" 200
+2025-07-16 17:33:56,810 - uvicorn.access - INFO - 127.0.0.1:59147 - "GET /webui/assets/ui-vendor-CeCm8EER.js HTTP/1.1" 200
+2025-07-16 17:33:56,818 - uvicorn.access - INFO - 127.0.0.1:59150 - "GET /webui/assets/feature-graph-C2oTJZJ8.js HTTP/1.1" 200
+2025-07-16 17:33:56,820 - uvicorn.access - INFO - 127.0.0.1:59148 - "GET /webui/assets/graph-vendor-B-X5JegA.js HTTP/1.1" 200
+2025-07-16 17:33:56,821 - uvicorn.access - INFO - 127.0.0.1:59149 - "GET /webui/assets/utils-vendor-BysuhMZA.js HTTP/1.1" 200
+2025-07-16 17:33:56,828 - uvicorn.access - INFO - 127.0.0.1:59146 - "GET /webui/assets/feature-graph-BipNuM18.css HTTP/1.1" 200
+2025-07-16 17:33:56,833 - uvicorn.access - INFO - 127.0.0.1:59145 - "GET /webui/assets/index-DwO2XWaU.css HTTP/1.1" 200
+2025-07-16 17:33:56,835 - uvicorn.access - INFO - 127.0.0.1:59147 - "GET /webui/assets/markdown-vendor-DmIvJdn7.js HTTP/1.1" 200
+2025-07-16 17:33:56,836 - uvicorn.access - INFO - 127.0.0.1:59149 - "GET /webui/assets/mermaid-vendor-CY273lNM.js HTTP/1.1" 200
+2025-07-16 17:33:56,840 - uvicorn.access - INFO - 127.0.0.1:59146 - "GET /webui/assets/feature-retrieval-CpuDBjCo.js HTTP/1.1" 200
+2025-07-16 17:33:56,841 - uvicorn.access - INFO - 127.0.0.1:59148 - "GET /webui/assets/feature-documents-CHAt2SlA.js HTTP/1.1" 200
+2025-07-16 17:33:57,006 - uvicorn.access - INFO - 127.0.0.1:59147 - "GET /auth-status HTTP/1.1" 200
+2025-07-16 17:33:57,009 - uvicorn.access - INFO - 127.0.0.1:59147 - "GET /webui/favicon.png HTTP/1.1" 200
+2025-07-16 17:33:57,109 - uvicorn.access - INFO - 127.0.0.1:59147 - "GET /docs HTTP/1.1" 200
+2025-07-16 17:33:57,119 - uvicorn.access - INFO - 127.0.0.1:59146 - "GET /graph/label/list HTTP/1.1" 200
+2025-07-16 17:33:57,137 - lightrag - INFO - Subgraph query successful | Node count: 0 | Edge count: 0
+2025-07-16 17:33:57,138 - uvicorn.access - INFO - 127.0.0.1:59149 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-07-16 17:33:57,317 - uvicorn.access - INFO - 127.0.0.1:59149 - "GET /openapi.json HTTP/1.1" 200

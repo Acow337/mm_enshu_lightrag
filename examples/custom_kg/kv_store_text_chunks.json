@@ -1,0 +1,67 @@
+{
+  "chunk-4e65c252679e0832e568943167c530f7": {
+    "content": "ProductX, developed by CompanyA, has revolutionized the market with its cutting-edge features.",
+    "source_id": "Source1",
+    "tokens": 19,
+    "chunk_order_index": 0,
+    "full_doc_id": "Source1",
+    "file_path": "custom_kg",
+    "status": "processed",
+    "llm_cache_list": [],
+    "create_time": 1752912878,
+    "update_time": 1752912878,
+    "_id": "chunk-4e65c252679e0832e568943167c530f7"
+  },
+  "chunk-eeec0036b909839e8ec4fa150c939eec": {
+    "content": "One outstanding feature of ProductX is its advanced AI capabilities.",
+    "source_id": "Source1",
+    "tokens": 12,
+    "chunk_order_index": 1,
+    "full_doc_id": "Source1",
+    "file_path": "custom_kg",
+    "status": "processed",
+    "llm_cache_list": [],
+    "create_time": 1752912878,
+    "update_time": 1752912878,
+    "_id": "chunk-eeec0036b909839e8ec4fa150c939eec"
+  },
+  "chunk-8c0cbecf330bf2137c5787f7954122f6": {
+    "content": "PersonA is a prominent researcher at UniversityB, focusing on artificial intelligence and machine learning.",
+    "source_id": "Source2",
+    "tokens": 18,
+    "chunk_order_index": 0,
+    "full_doc_id": "Source2",
+    "file_path": "custom_kg",
+    "status": "processed",
+    "llm_cache_list": [],
+    "create_time": 1752912878,
+    "update_time": 1752912878,
+    "_id": "chunk-8c0cbecf330bf2137c5787f7954122f6"
+  },
+  "chunk-1e2c7f38bc3505351d583db0f43caf1f": {
+    "content": "EventY, held in CityC, attracts technology enthusiasts and companies from around the globe.",
+    "source_id": "Source3",
+    "tokens": 18,
+    "chunk_order_index": 0,
+    "full_doc_id": "Source3",
+    "file_path": "custom_kg",
+    "status": "processed",
+    "llm_cache_list": [],
+    "create_time": 1752912878,
+    "update_time": 1752912878,
+    "_id": "chunk-1e2c7f38bc3505351d583db0f43caf1f"
+  },
+  "chunk-6adf97f83acf6453d4a6a4b1070f3754": {
+    "content": "None",
+    "source_id": "UNKNOWN",
+    "tokens": 1,
+    "chunk_order_index": 0,
+    "full_doc_id": "UNKNOWN",
+    "file_path": "custom_kg",
+    "status": "processed",
+    "llm_cache_list": [],
+    "create_time": 1752912878,
+    "update_time": 1752912878,
+    "_id": "chunk-6adf97f83acf6453d4a6a4b1070f3754"
+  }
+}
