@@ -22,9 +22,9 @@ Quick Start
 ```bash
 # python version >= 3.10
 git clone https://github.com/Acow337/mm_enshu_lightrag.git
-pip install -e ".[api]"
 
 cd mm_enshu_lightrag
+pip install -e ".[api]"
 cd lightrag
 # copy your .env file to the "lightrag" folder
 

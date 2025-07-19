@@ -2214,3 +2214,31 @@
 2025-07-20 01:26:05,045 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
 2025-07-20 01:26:05,049 - lightrag - INFO - Final context: 52 entities, 40 relations, 10 chunks
 2025-07-20 01:26:05,553 - uvicorn.access - INFO - 127.0.0.1:57831 - "POST /query/stream HTTP/1.1" 200
+2025-07-20 02:26:17,062 - lightrag - INFO - Rerank model not configured. Set RERANK_BINDING_API_KEY and RERANK_BINDING_HOST to enable reranking.
+2025-07-20 02:26:17,409 - lightrag - INFO - Loaded graph from /Users/ruka337/Desktop/dev/mm_enshu_lightrag/lightrag/rag_storage/graph_chunk_entity_relation.graphml with 1787 nodes, 2733 edges
+2025-07-20 02:26:17,533 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2025-07-20 02:26:17,556 - uvicorn.error - INFO - Started server process [68739]
+2025-07-20 02:26:17,556 - uvicorn.error - INFO - Waiting for application startup.
+2025-07-20 02:26:17,558 - lightrag - INFO - Process 68739 KV load full_docs with 1 records
+2025-07-20 02:26:17,561 - lightrag - INFO - Process 68739 KV load text_chunks with 145 records
+2025-07-20 02:26:17,590 - lightrag - INFO - Process 68739 KV load llm_response_cache with 489 records
+2025-07-20 02:26:17,592 - lightrag - INFO - Process 68739 doc status load doc_status with 1 records
+2025-07-20 02:26:17,592 - uvicorn.error - INFO - Application startup complete.
+2025-07-20 02:26:17,593 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-07-20 02:26:21,785 - uvicorn.access - INFO - 127.0.0.1:58795 - "GET / HTTP/1.1" 307
+2025-07-20 02:26:21,788 - uvicorn.access - INFO - 127.0.0.1:58795 - "GET /webui HTTP/1.1" 307
+2025-07-20 02:26:21,991 - uvicorn.access - INFO - 127.0.0.1:58796 - "GET /auth-status HTTP/1.1" 200
+2025-07-20 02:26:22,125 - uvicorn.access - INFO - 127.0.0.1:58796 - "GET /docs HTTP/1.1" 200
+2025-07-20 02:26:22,248 - uvicorn.access - INFO - 127.0.0.1:58796 - "GET /openapi.json HTTP/1.1" 200
+2025-07-20 02:26:36,322 - uvicorn.access - INFO - 127.0.0.1:58798 - "GET /graph/label/list HTTP/1.1" 200
+2025-07-20 02:26:36,342 - lightrag - INFO - Graph truncated: 1787 nodes found, limited to 1000
+2025-07-20 02:26:36,382 - lightrag - INFO - Subgraph query successful | Node count: 1000 | Edge count: 2133
+2025-07-20 02:26:36,479 - uvicorn.access - INFO - 127.0.0.1:58798 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-07-20 02:26:36,780 - uvicorn.access - INFO - 127.0.0.1:58798 - "GET /graph/label/list HTTP/1.1" 200
+2025-07-20 02:26:36,798 - lightrag - INFO - Graph truncated: 1787 nodes found, limited to 1000
+2025-07-20 02:26:36,818 - lightrag - INFO - Subgraph query successful | Node count: 1000 | Edge count: 2133
+2025-07-20 02:26:36,890 - uvicorn.access - INFO - 127.0.0.1:58798 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-07-20 02:26:58,636 - uvicorn.error - INFO - Shutting down
+2025-07-20 02:26:58,739 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-07-20 02:26:58,740 - uvicorn.error - INFO - Application shutdown complete.
+2025-07-20 02:26:58,740 - uvicorn.error - INFO - Finished server process [68739]
